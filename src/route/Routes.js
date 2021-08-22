@@ -26,12 +26,12 @@ const routes = [
     name: "Home",
     component: Home,
     icon: HomeIcon
-    },
-     {
+  },
+  {
     path: context + "dashboard",
     name: "Dashboard",
     component: DashboardPage,
-    icon: DashboardIcon    
+    icon: DashboardIcon
   },
   {
     path: context + "contractor-search",
@@ -45,13 +45,13 @@ const routes = [
     component: BPOSearch,
     icon: SearchIcon
   },
-   {
+  {
     path: context + "reports",
     name: "Reports",
     component: Reports,
     icon: ReportIcon
   },
-   {
+  {
     path: context + "user-guide",
     name: "UserGuide",
     component: UserGuide,

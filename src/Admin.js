@@ -31,9 +31,8 @@ const switchRoutes = (
           key={key}
         />
       );
-
-
     })}
+    <Redirect from="/" to="/home" />
   </Switch>
 );
 
